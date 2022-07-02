@@ -54,15 +54,7 @@ ul {
     color: var(--additional-text-color);
 }
 
-.header-navigation .current {
-    color: var(--additional-text-color);
-}
-
-.header-navigation.current {
-    color: var(--additional-text-color);
-}
-
-.header-auth a {
+.header-contact-item a {
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -71,14 +63,14 @@ ul {
     text-decoration: none;
 }
 
-.header-auth a:hover,
-.header-auth a:focus {
+.header-contact-item a:hover,
+.header-contact-item a:focus {
     color: var(--additional-text-color);
 }
 
 /* main */
 /* main hero */
-hero {
+.hero {
     color: var(--white-tex-color);
     background-color: #2F303A;
 }
