@@ -32,7 +32,7 @@ ul {
     color: var(--additional-text-color);
 }
 
-.header-navigation a {
+.header-list a {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -41,12 +41,12 @@ ul {
     text-decoration: none;
 }
 
-.header-navigation a:hover,
-.header-navigation a:focus {
+.header-list a:hover,
+.header-list a:focus {
     color: var(--additional-text-color);
 }
 
-.header-navigation a.current {
+.header-list a.current {
     color: var(--additional-text-color);
 }
 
@@ -71,7 +71,7 @@ ul {
     background-color: #2F303A;
 }
 
-.hero-tittle {
+.hero-title  {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -91,11 +91,13 @@ ul {
     cursor: pointer;
 }
 
-.section-tittle {
+/* наши достоинства */
+
+.section-title {
     color: var(--primary-text-color);
 }
 
-.features-list .tittle {
+.features .title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -103,8 +105,15 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.features-list .features-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
 
-.features-list .paragraph {
+.features-list .features-paragraph {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 14px;
@@ -114,7 +123,7 @@ ul {
 
 /* что мы делаем */
 
-.section-tittle {
+.job-title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -129,8 +138,25 @@ ul {
     background-color: #F5F4FA;
 }
 
-.team-list .tittle {
+.team-title {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.team-list .team-second-title {
+color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
@@ -138,7 +164,8 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.team-list .paragraph {
+
+.team-list .team-paragraph {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -215,7 +242,7 @@ ul {
     background-color: var(--additional-text-color);
 }
 
-.section-list .tittle {
+.section-list .section-title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -223,7 +250,7 @@ ul {
     letter-spacing: 0.06em;
 }
 
-.section-list .paragraph {
+.section-list .section-paragraph {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -251,8 +278,8 @@ ul {
     color: var(--additional-text-color)
 }
 
-.footer-list .adress {
-    color:#000000;
+.footer-list .address {
+    color:#FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -262,14 +289,13 @@ ul {
 }
 
 .footer-list .link {
-    color: rgba(255, 255, 255, 0.6);
+    color:#rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    text-decoration: none;
-}
+    text}
 
 .footer-list a:hover,
 .footer-list a:focus {
